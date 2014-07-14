@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="top|center"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/startchannel"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Start Session" />
+
+    <Button
+        android:id="@+id/stopchannel"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Stop Session" />
+
+    <Button
+        android:id="@+id/joinchannel"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Join Session" />
+
+    <Button
+        android:id="@+id/sendjson"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Send Data" />
+
+    <Button
+        android:id="@+id/leavechannel"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Leave Session" />
+    
+    
+    <TextView
+        android:id="@+id/textpreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:padding="10dp"
+     android:hint="message"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editpreview"
+        android:layout_width="match_parent"
+        android:hint="Add msg to Sync"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+    >
+
+       
+    </EditText>
+
+    
+
+</LinearLayout>
